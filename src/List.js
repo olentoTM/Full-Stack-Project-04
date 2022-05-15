@@ -81,17 +81,13 @@ export default class List extends Component {
             <div>
                 <Form onSubmit={this.queryEvent}>
                     <InputGroup className="mb-3">
-                        <FormControl aria-label="Text input with dropdown button" placeholder="Search for an album." name="idquery" type="text" onChange={(event) => this.setState({query: event.target.value})}/>
+                        <FormControl aria-label="Text input with dropdown button" placeholder="Search for an album by ID." name="idquery" type="text" onChange={(event) => this.setState({query: event.target.value})}/>
                         <Button type="submit">Search</Button>
                         <Button onClick={this.getAll} className="btn btn-dark">Show All</Button>
                     </InputGroup>
                 </Form>
             </div>
             <div>
-                {
-                this.state.albums.length === 0 &&
-                <h1>No data available.</h1>
-                }
                 <Table striped bordered responsive="sm">
                 <thead>
                     <tr>
@@ -107,6 +103,7 @@ export default class List extends Component {
                 <tbody>
                 {
                 this.state.albums.length > 0 &&
+                Array.isArray(this.state.albums) &&
                 this.state.albums.map( (item) => (
                         <tr key={item._id}>
                             <th><Image fluid style={{width: 200}} src={item.cover}></Image></th>
@@ -122,8 +119,16 @@ export default class List extends Component {
                 </tbody>
                 </Table>
                 {
+                    this.state.albums === "ID not found." &&
+                    <h1>404 - Not Found</h1>
+                }
+                {
+                    this.state.albums === "An error has occurred in the server." &&
+                    <h1>500 - Internal Server Error</h1>
+                }
+                {
                     this.state.error &&
-                    <h1>{this.state.error}</h1>
+                    <h1>An Error Has Occured!</h1>
                 }
             </div>
         </div> 
