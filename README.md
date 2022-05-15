@@ -19,6 +19,7 @@ Puuttuvat ominaisuudet, jotka yritän vielä implementoida:
 Tällä hetkellä sovellus saattaa rikkoutua, jos tietokantahaku epäonnistuu (koodi 500 tai 404). Aion korjata tämän jossain vaiheessa.
 
 Sovelluksessa käytetään React-Bootstrap kehystä.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The fourth and final project for Laurea's Full Stack application development course. The idea is a graphical UI created with React to display data called from the project 3 API.
