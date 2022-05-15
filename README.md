@@ -1,6 +1,6 @@
 # Full Stack Project 04
 
-DEMO: N/A (Tulossa myöhemmin // Coming later)
+DEMO: https://fs-project-04.herokuapp.com/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,8 +15,6 @@ Puuttuvat ominaisuudet, jotka yritän vielä implementoida:
 - Sovelluksella voi hakea dokumentteja myös artistin, albumin tai levy-yhtiön nimen perusteella.
 - Sovelluksella voi luoda uusia tietokantadokumentteja.
 - Sovelluksella voi muokata tietokantadokumentteja.
-
-Tällä hetkellä sovellus saattaa rikkoutua, jos tietokantahaku epäonnistuu (koodi 500 tai 404). Aion korjata tämän jossain vaiheessa.
 
 Sovelluksessa käytetään React-Bootstrap kehystä.
 
@@ -33,7 +31,5 @@ Missing features that I'm still planing to implement:
 - The app can also search for documents based on artist name, album title or label name.
 - The app can create new database documents.
 - The app can edit database documents.
-
-Right now the application can break if a database query fails (code 500 or 404). I'm planning to fix this eventaully.
 
 The app uses React-Bootstrap framework.
