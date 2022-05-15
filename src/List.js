@@ -40,7 +40,7 @@ export default class List extends Component {
             this.setState({error})
         })
     }
-    
+
     queryEvent = (event) => {
         event.preventDefault();
         this.searchAlbum();
@@ -83,7 +83,7 @@ export default class List extends Component {
                     <InputGroup className="mb-3">
                         <FormControl aria-label="Text input with dropdown button" placeholder="Search for an album." name="idquery" type="text" onChange={(event) => this.setState({query: event.target.value})}/>
                         <Button type="submit">Search</Button>
-                        <Button onClick={this.test} className="btn btn-dark">Show All</Button>
+                        <Button onClick={this.getAll} className="btn btn-dark">Show All</Button>
                     </InputGroup>
                 </Form>
             </div>

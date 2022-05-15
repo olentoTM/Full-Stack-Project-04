@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Full Stack Project 04
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DEMO: N/A (Tulossa myöhemmin // Coming later)
 
-## Available Scripts
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-In the project directory, you can run:
+Neljäs ja viimeinen projekti Laurean Full Stack sovelluskehitys kurssia varten. Projektin ideana on graafinen, Reactin avulla luotu käyttöliittymä, jolla esitetään projekti 3 API:n kautta haettua dataa.
 
-### `npm start`
+Tällä hetkellä projekti on yhä kesken eräinen. Seuraavat ominaisuudet ovat implementoitu:
+- Sovellus hakee projekti 3 API:n kautta kaikki tietokantadokumentit ja esittää ne sivulla.
+- Sovelluksella voi hakea dokumentteja ID:n avulla.
+- Sovelluksella voi poistaa tietokantadokumentteja.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Puuttuvat ominaisuudet, jotka yritän vielä implementoida:
+- Sovelluksella voi hakea dokumentteja myös artistin, albumin tai levy-yhtiön nimen perusteella.
+- Sovelluksella voi luoda uusia tietokantadokumentteja.
+- Sovelluksella voi muokata tietokantadokumentteja.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tällä hetkellä sovellus saattaa rikkoutua, jos tietokantahaku epäonnistuu (koodi 500 tai 404). Aion korjata tämän jossain vaiheessa.
 
-### `npm test`
+Sovelluksessa käytetään React-Bootstrap kehystä.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The fourth and final project for Laurea's Full Stack application development course. The idea is a graphical UI created with React to display data called from the project 3 API.
 
-### `npm run build`
+Right now the project is still unfinished. The following features have been implemented:
+- The app fetches all database documents from Project 3 API and displays them on the webpage.
+- The app can be used to search for documents by their ID.
+- The app can be used to delete documents from the database.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Missing features that I'm still planing to implement:
+- The app can also search for documents based on artist name, album title or label name.
+- The app can create new database documents.
+- The app can edit database documents.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Right now the application can break if a database query fails (code 500 or 404). I'm planning to fix this eventaully.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app uses React-Bootstrap framework.
