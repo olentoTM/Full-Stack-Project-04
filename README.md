@@ -2,6 +2,8 @@
 
 DEMO: https://fs-project-04.herokuapp.com/
 
+(16.9.2022: HUOM! Projekti 3 API:ssa on jotain vikaa juuri nyt, jonka takia dataa ei voida näyttää. Yritän korjata asian jossain vaiheessa. // NOTE! Project 3 API has some issue, which prevents data being shown. I will try to fix the issue at some point.)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Neljäs ja viimeinen projekti Laurean Full Stack sovelluskehitys kurssia varten. Projektin ideana on graafinen, Reactin avulla luotu käyttöliittymä, jolla esitetään projekti 3 API:n kautta haettua dataa.
