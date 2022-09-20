@@ -10,7 +10,7 @@ Neljäs ja viimeinen projekti Laurean Full Stack sovelluskehitys kurssia varten.
 
 Tällä hetkellä projekti on yhä kesken eräinen. Seuraavat ominaisuudet ovat implementoitu:
 - Sovellus hakee projekti 3 API:n kautta kaikki tietokantadokumentit ja esittää ne sivulla.
-- Sovelluksella voi hakea dokumentteja ID:n avulla.
+- Sovelluksella voi hakea dokumentteja ID:n avulla. (Vinkki: Tarkista konsoli ID:n löytämiseksi. API data tulostetaan sinne.)
 - Sovelluksella voi poistaa tietokantadokumentteja.
 
 Puuttuvat ominaisuudet, jotka yritän vielä implementoida:
@@ -26,7 +26,7 @@ The fourth and final project for Laurea's Full Stack application development cou
 
 Right now the project is still unfinished. The following features have been implemented:
 - The app fetches all database documents from Project 3 API and displays them on the webpage.
-- The app can be used to search for documents by their ID.
+- The app can be used to search for documents by their ID. (Tip: Check the console for ID. API data is displayed there.)
 - The app can be used to delete documents from the database.
 
 Missing features that I'm still planing to implement:
