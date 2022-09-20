@@ -2,7 +2,7 @@
 
 DEMO: https://fs-project-04.herokuapp.com/
 
-(16.9.2022: HUOM! Projekti 3 API:ssa on jotain vikaa juuri nyt, jonka takia dataa ei voida näyttää. Yritän korjata asian jossain vaiheessa. // NOTE! Project 3 API has some issue, which prevents data being shown. I will try to fix the issue at some point.)
+(HUOM! CORS-policy saattaa estää haun projekti 3 API:sta. Tämän ongelman voi kiertää esim. CORS Unblock selainlaajennuksella. // NOTE! CORS-policy may block fetching data from project 3 API. This problem can be circumvented e.g. with CORS Unblock browser extention.)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
